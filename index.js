@@ -87,7 +87,7 @@ memberlimit = 2
 fake = 'YDBOT-FIX-ANTIDELETE'
 ator = 'SUBSCRIBE'
 namo = 'MrG{108P}*'
-cr = "~*SUBSCRIBE:MrG{108P}🍁~OWNER:Arnando🍁*"
+cr = "~*SUBSCRIBE:MrG{108P}🍁~OWNER:ৣ🐰͢⸸ғᴋ᭭-ʟᷤᴇͤᴏͧɴͪᴇͤʟᷤ⸸*"
 // LOAD JSON
 const setiker = JSON.parse(fs.readFileSync('./strg/stik.json'))
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
@@ -1112,13 +1112,13 @@ shiz = `┏━━━━《 *${botName}*  シ︎ 》━━━━
 ┣ ◪ *Thanks To*
 ┃
 ┣ ❏ *Mr.108P*
-┣ ❏ *SofyanAmv*
-┣ ❏ *Ivan_maulana*
-┣ ❏ *Arashi~*
+┣ ❏ *᭼(♡ര‿ര)LEONEL ᷒ ᷒ ᷒᭼⁩⁩ *
+┣ ❏ *⁨➴ꪾꦿ᭄፝ᵗᶤᶰᵏᶤˡᵛᵉʳ᭄ᶜᵃᵐᵖᵃᶰᶤᵗA🇰🇬⁩*
+┣ ❏ *꧁ꦾꦹ𝄣⃢⋆͙̈🎭❥∂เαɓℓเƭα🌹𝄣⃢𖣔︎꧂*
 ┣ ❏ *Mr.A43G*
-┣ ❏ *ItsmeikyXSec404*
-┣ ❏ *Fadhill*
-┣ ❏ *Ramlan*
+┣ ❏ *✪͜͡ৣ✞༎𐌍samy𐌔✞ৡৣ፝͜͡ 🌹፝͜ৣঔ*
+┣ ❏ *☁︎// 𝙇𝙞𝙯 //☁︎ᵃᵈᵐⁱⁿ*
+┣ ❏ *꧁ೄSasuke Uchihaೄྀ࿐*
 ┃
 ┗━━━━《 Rem Bot -X シ︎ 》━━━━`
 MrG.sendMessage(from, buffer, image, { quoted: mek, caption: shiz })
