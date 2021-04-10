@@ -1120,7 +1120,7 @@ shiz = `┏━━━━《 *${botName}*  シ︎ 》━━━━
 ┣ ❏ *☁︎// 𝙇𝙞𝙯 //☁︎ᵃᵈᵐⁱⁿ*
 ┣ ❏ *꧁ೄSasuke Uchihaೄྀ࿐*
 ┃
-┗━━━━《 Rem Bot -X シ︎ 》━━━━`
+┗━━━━《 Kayt Bot -X シ︎ 》━━━━`
 MrG.sendMessage(from, buffer, image, { quoted: mek, caption: shiz })
 const menu2 = fs.readFileSync('./assest/menu2.mp3');
 MrG.sendMessage(from, menu2, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
@@ -1543,7 +1543,7 @@ case 'play'://UPDATE MR.108P
 				play = body.slice(6)
 				anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=apivinz`)
 				if (anu.error) return reply(anu.error)
-				infomp3 = `*Lagu Ditemukan!!!*\nJudul : ${anu.result.title}\nSource : ${anu.result.source}\nUkuran : ${anu.result.size}\n\n*TUNGGU SEBENTAR LAGI DIKIRIM MOHON JANGAN SPAM YA SAYANG*`
+				infomp3 = `*CANCIÓN ENCONTRADA*\nTema : ${anu.result.title}\nFuente : ${anu.result.source}\nTamaño : ${anu.result.size}\n\n*ESPERA PORFAVOR NO SPAM*`
 				buffer = await getBuffer(anu.result.thumbnail)
 				MrG.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
 				lagu = await getBuffer(anu.result.url_audio)
@@ -1553,7 +1553,7 @@ case 'play'://UPDATE MR.108P
 				play = body.slice(7)
 				anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=apivinz`)
 				if (anu.error) return reply(anu.error)
-				infomp3 = `*Lagu Ditemukan!!!*\nJudul : ${anu.result.title}\nSource : ${anu.result.source}\nUkuran : ${anu.result.size}\n\n*TUNGGU SEBENTAR LAGI DIKIRIM MOHON JANGAN SPAM YA SAYANG*`
+				infomp3 = `*CANCIÓN ENCONTRADA*\nTema : ${anu.result.title}\nFuente : ${anu.result.source}\nTamaño : ${anu.result.size}\n\n*TUNGGU SEBENTAR LAGI DIKIRIM MOHON JANGAN SPAM YA SAYANG*`
 				buffer = await getBuffer(anu.result.thumbnail)
 				MrG.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
 				lagu = await getBuffer(anu.result.url_audio)
