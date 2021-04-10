@@ -419,7 +419,7 @@ MrG.on('group-participants-update', async (anu) => {
 
 				}
 
-				teks = `[ *WELCOME IN GC ${mdata.subject}* ] \n___________________________\n@${num.split('@')[0]} Intro/Dikick!!! \n➸ Nama : \n➸ Umur : \n➸ Askot : \n➸ Gender : \n➸ Udah Punya Doi/Blm: \n➸ Pap Muka dumlu!!! \n➸ Instagram? \n𝐒𝐚𝐯𝐞 𝐍𝐨𝐦𝐨𝐫 𝐀𝐃𝐌𝐈𝐍! \n *___________________________*\nJangan jadi kutu lomcat sayang!!`
+				teks = `[ *BIENVENIDO AL GRUPO ${mdata.subject}* ] \n___________________________\n@${num.split('@')[0]} Info/samy!!! \n➸ Nombre : \n➸ Edad : \n➸ Fb : \n➸ Genero : \n➸ Lee las reglas/: \n➸ Pap Muka dumlu!!! \n➸ Instagram? \n𝐒𝐚𝐯𝐞 𝐍𝐨𝐦𝐨𝐫 𝐀𝐃𝐌𝐈𝐍! \n *___________________________*\n no hayga mal entendido!!`
 
 				let buff = await getBuffer(ppimg)
 
@@ -439,7 +439,7 @@ MrG.on('group-participants-update', async (anu) => {
 
 				}
 
-				teks = `SELAMAT TINGGAL... @${num.split('@')[0]}👋* \n_Jasamu akan saya kubur dalam dalam_`
+				teks = `ADIOS... @${num.split('@')[0]}👋* \n_Ni te queriamos_`
 
 				let buff = await getBuffer(ppimg)
 
